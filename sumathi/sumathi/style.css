@@ -1,0 +1,38 @@
+
+  * {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("https://static.chaos.com/images/assets/000/013/861/full_width_original/PSX_20211022_164829.jpg?1634917737");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 500px;
+}
+  h1 {
+    color: whitesmoke;
+  }
+  p {
+    color: red;
+  }
+  ul{
+    font-size: 20px;
+  }
+  .column {
+    float: left;
+    width: 30%;
+    padding: 20px;
+    background-color: rgba(239, 175, 96, 0.866);
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+   
+  }
+  img {
+    border-radius: 10%;
+    height: 500px;
+    
+  }

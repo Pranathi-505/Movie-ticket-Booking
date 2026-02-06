@@ -1,0 +1,116 @@
+<!DOCTYPE html>  
+<html lang="en">  
+   
+    <style>
+          * {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("https://static.chaos.com/images/assets/000/013/861/full_width_original/PSX_20211022_164829.jpg?1634917737");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 500px;
+}
+  h1 {
+    color: white;
+  }
+  p {
+    color: red;
+  }
+  ul{
+    font-size: 20px;
+  }
+  .column {
+    float: left;
+    width: 30%;
+    padding: 20px;
+    border-color: aqua;
+    border-bottom: 50px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+   
+  }
+  img {
+    border-radius: 20%;
+    height: 500px;
+    border: 6px solid #d31d1d;
+  }
+  h3{
+    background-color: aliceblue;
+    
+  }
+  button {
+    background-color: #15bbe4;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+    border-radius: 12px;
+}
+
+    </style>
+
+<head>  
+  <title>Bootstrap Case</title>  
+  <meta charset="utf-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">  
+ 
+</head>   
+<body>  
+    <div class="container">  
+        <h1 style="text-align: center; color: aqua;">Movies</h1>  
+        
+        <ul class="nav nav-tabs" style="background-color: white">  
+          <li ><a href="Home.html">Home</a></li>  
+          <li><a href="Movies.html">Movies</a></li>  
+          <li><a href="about.html">About us</a></li>  
+          <li><a href="Login.html">Login</a></li>  
+        </ul> 
+        
+        <br>
+        <div class="row" style="text-align: center; ">
+        <div class="column">
+          <img src="images/2.jpg" alt="Snow" style="width:100%">
+          <h3>RRR</h3>
+          <button id="mybutton">Book Now</button>
+        </div>
+        <script type="text/javascript">
+            document.getElementById("mybutton").onclick = function () {
+                location.href = "http://127.0.0.1:5500/confo.html";
+            };
+        </script>
+        <div class="column">
+          <img src="images/8.jpg" alt="Forest" style="width:100%">
+          <h3>Avatar</h3>
+          <button id="mybutton1">Book Now</button>
+        </div>
+        <script type="text/javascript">
+            document.getElementById("mybutton1").onclick = function () {
+                location.href = "http://127.0.0.1:5500/confo.html";
+            };
+        </script>
+    
+        <div class="column">
+          <img src="images/4.jpg" alt="Mountains" style="width:100%">
+          <h3>99</h3>
+          <button id="mybutton2">Book Now</button>
+        </div>
+        <script type="text/javascript">
+            document.getElementById("mybutton2").onclick = function () {
+                location.href = "http://127.0.0.1:5500/confo.html";
+            };
+        </script>
+      </div>
+    
+    </div>  
+   
+    </body>  
+    </html>
