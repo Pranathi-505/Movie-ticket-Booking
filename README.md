@@ -15,10 +15,10 @@
   <h1 style="text-align: center;">Movie ticket Booking</h1>  
   
   <ul class="nav nav-tabs">  
-    <li class="active"><a href="ho">Home</a></li>  
-    <li><a href="Movies.html">Movies</a></li>  
-    <li><a href="about.html">About us</a></li>  
-    <li><a href="Login.html">Login</a></li>  
+    <li class="active"><a href="ho">home</a></li>  
+    <li><a href="Movies.html">movies</a></li>  
+    <li><a href="about.html">about us</a></li>  
+    <li><a href="Login.html">login</a></li>  
   </ul> 
   
   <br>
